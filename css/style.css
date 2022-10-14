@@ -1,0 +1,28 @@
+.apple {
+  position: absolute;
+  -webkit-animation: appleAni 3s infinite;
+          animation: appleAni 3s infinite;
+}
+
+.apple img {
+  width: 50px;
+}
+
+@-webkit-keyframes appleAni {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 95%;
+  }
+}
+
+@keyframes appleAni {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 95%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
